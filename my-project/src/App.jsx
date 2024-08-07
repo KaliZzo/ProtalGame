@@ -48,7 +48,8 @@ const App = () => {
   };
 
   return (
-    <Router >
+    // /basename="/nisim/UploadPortalGameReact
+    <Router>
       <NavBar user={user} onLogout={handleLogout} />
       <Routes>
         <Route path="/" element={<HomePage />} />
